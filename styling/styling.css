@@ -1,0 +1,153 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Tag line styling is starting from here. */
+#top{
+    background-color: rgb(84, 190, 240);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+#tag{
+    color: white;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tag a{
+    color: white;
+    text-decoration: none;
+}
+#tag a:hover{
+    color:  rgb(243, 121, 99);
+    text-decoration: underline;
+}
+/* tag line styling is ended here. */
+
+/* NAvbar styling starting from here */
+#header{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-cart img{
+    width: 100px;
+    height: 60px;
+}
+.left-image img{
+    width: 100px;
+    height: 50px;
+}
+#navbar{
+    /* border: 2px solid green; */
+    width: 70%;
+    height: 70px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#navbar ul li{
+    list-style: none;
+    padding: 0px 32px;
+}
+#navbar li a{
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+}
+#navbar li a:hover{
+    color:  blue;
+    text-decoration: underline;
+    font-size: 21px;
+}
+/* Navbar styling is ended here */
+.container{
+    display: grid;
+    /* justify-content: center; */
+    /* align-items: center; */
+    grid-gap: 2rem;
+    grid-template-areas: 
+    "first  second"
+    "third  fourth"
+    ;
+}
+.box{
+    width: 500px;
+    /* height: 550px; */
+    margin: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+#item-1{
+    grid-area: first;
+}
+#item-2{
+    grid-area: second;
+    text-align: right;
+}
+#item-3{
+    grid-area: third;
+}
+#item-4{
+    text-align: right;
+    grid-area: fourth;
+}
+h1{
+    text-align: center;
+    font-size: 53px;
+}
+ p{
+    text-align: center;
+    font-size: 23px;
+}
+.btn{
+    display: block;
+    background-color: rgb(109, 174, 248);
+    margin:  auto;
+    padding: 20px 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 21px;
+    border-radius: 23px;
+}
+/* About the website ends here */
+
+/* Services is starting from here */
+
+.works{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    height: 470px;
+}
+.services{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.work-box{
+    width: 350px;
+    /* border: 2px solid gray; */
+}
+.work-box img{
+    width: 300px;
+    height: 220px;
+}
+.work-box h3{
+    font-size: 25px;
+    text-align: center;
+}
+.work-box p{
+    color: rgb(109, 91, 91);
+}
